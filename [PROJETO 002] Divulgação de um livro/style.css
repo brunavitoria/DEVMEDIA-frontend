@@ -1,0 +1,32 @@
+* {
+    font-family: Tahoma, sans-serif;
+}
+
+body {
+    color: #000000;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+div {
+    border-top: 1px solid #d5d5d5;
+    padding: 50px;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    color: #f5f5f5;
+    background-color: #49b970;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    margin: 20px auto;
+}
