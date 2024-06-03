@@ -7,3 +7,9 @@ Lista de projetos desenvolvidos durante a carreira de Programador Front-end do D
 
 - [Projeto 001](/[PROJETO%20001]%20Parque%20Ilha%20Bela/) - Parque Estadual Ilha Bela
 - [Projeto 002](/[PROJETO%20002]%20Divulgação%20de%20um%20livro/) - Divulgação de um livro
+
+## Exercícios
+
+Lista de exercícios desenvolvidos durante a carreira de Programador Front-end do DevMedia.
+
+- [CSS Seletores](/[Exercícios%20Práticos]/[02-04]%20CSS%20Seletores/) - Exercícios de CSS Seletores
