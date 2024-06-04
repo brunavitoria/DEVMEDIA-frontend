@@ -14,3 +14,4 @@ Lista de projetos desenvolvidos durante a carreira de Programador Front-end do D
 Lista de exercícios desenvolvidos durante a carreira de Programador Front-end do DevMedia.
 
 - [CSS Seletores](/[Exercícios%20Práticos]/[02-04]%20CSS%20Seletores/) - Exercícios de CSS Seletores
+- [CSS Background](/[Exercícios%20Práticos]/[04-04]%20CSS%20Background/) - Exercícios de CSS Background
