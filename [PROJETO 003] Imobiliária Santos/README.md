@@ -1,4 +1,4 @@
-# Divulgação de um livro
+# Imobiliária Santos
 
 ## Descrição
 Este projeto é o terceiro projeto da carreira de Programador Front-end do DevMedia. O objetivo é criar uma página web estilizada e que exibe listas para a Imobiliária Santos.
