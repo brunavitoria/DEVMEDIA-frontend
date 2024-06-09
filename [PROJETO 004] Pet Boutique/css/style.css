@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url('../img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.marca {
+    max-width: 250px;
+    color: #3c184e;
+}
+
+.marca p img {
+    width: 30px;
+    margin: 0 5px 0 0;
+}
+
+.title {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.subtitle {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.card {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.card h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.card p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button img {
+    width: 20px;
+}
+/* COLORS
+#3c184e
+#fff 
+*/
+
+.section-purple {
+    background-color: #3c184e;
+    color: #fff;
+}
