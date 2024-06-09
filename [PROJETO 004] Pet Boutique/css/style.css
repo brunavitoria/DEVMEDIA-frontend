@@ -70,6 +70,42 @@
 .button img {
     width: 20px;
 }
+
+/* SERVICES */
+
+.services {
+    width: 100%;
+    padding: 120px 80px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.services-list {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+}
+
+.services-list ol {
+    width: 800px;
+    margin: 0 auto 50px auto;
+    color:#3c184e;
+}
+
+.services-list li {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.services-list span {
+    font-weight: 700;
+    font-style: italic;
+}
 /* COLORS
 #3c184e
 #fff 
