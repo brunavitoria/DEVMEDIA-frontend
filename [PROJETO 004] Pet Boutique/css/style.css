@@ -120,8 +120,37 @@ h3 {
 #3c184e
 #fff 
 */
-
+/* SOCIAL MEDIA */
 .section-purple {
+    padding: 120px 80px;
     background-color: #3c184e;
     color: #fff;
+    text-align: center;
+}
+
+.section-purple p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-purple span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.section-purple div {
+    text-align: center;
+}
+
+.section-purple a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.section-purple img {
+    width: 50px;
+    height: 50px;
 }
