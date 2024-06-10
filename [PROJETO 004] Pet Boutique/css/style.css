@@ -106,6 +106,16 @@ h3 {
     font-weight: 700;
     font-style: italic;
 }
+
+.services-images {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services-images img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
 /* COLORS
 #3c184e
 #fff 
