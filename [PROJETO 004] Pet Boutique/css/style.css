@@ -200,3 +200,13 @@ iframe {
     width: 800px;
     height: 450px;
 }
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+    color: #fff;
+    text-align: center;
+}
