@@ -116,10 +116,7 @@ h3 {
     border-radius: 5px;
     box-shadow: 3px 6px 10px 6px #0000005c;
 }
-/* COLORS
-#3c184e
-#fff 
-*/
+
 /* SOCIAL MEDIA */
 .section-purple {
     padding: 120px 80px;
@@ -153,4 +150,28 @@ h3 {
 .section-purple img {
     width: 50px;
     height: 50px;
+}
+
+/* BRANDS */
+
+.section-brands {
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.section-brands h3 {
+    font-size: 36px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+
+.section-brands div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-brands img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
 }
