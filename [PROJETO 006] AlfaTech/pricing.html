@@ -7,34 +7,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pricing.css">
 </head>
 <body>
     <header>
-        <img src="img/logo-icone-escuro.png" alt="Logo da empresa">
-        <h1>AlfaTech</h1>
-        <p>Soluções em hospedagem</p>
-        <a href="#plans">Planos</a>
-        <a href="pricing.html">Preços</a>
-        <a href="#contact">Contato</a>
+        <div class="container">
+            <div class="logo-div">
+                <img src="img/logo-icone-escuro.png" alt="Logo da empresa" class="logo">
+                <h1>AlfaTech</h1>
+                <p>Soluções em hospedagem</p>
+            </div>
+            <a href="home.html" class="links-topo">HOME</a>
+            <a href="home.html#info" class="links-topo">INFORMAÇÕES</a>
+            <a href="home.html#plans" class="links-topo">PLANOS</a>
+            <a href="home.html#contact" class="links-topo">CONTATO</a>
+        </div>
     </header>
-    <div id="table">
-        <table>
+    <div class="pricing">
+        <table class="container">
             <thead>
                 <tr>
-                    <th>
+                    <th></th>
+                    <th class="column-destaque">
                         <p>PESSOAL</p>
                         <h2>GRÁTIS</h2>
                     </th>
-                    <th>
+                    <th class="column-destaque">
                         <p>PROFISSIONAL</p>
                         <h2>R$29</h2>
                     </th>
-                    <th>
+                    <th class="column-destaque">
                         <p>EMPRESARIAL</p>
                         <h2>R$39</h2>
                     </th>
-                    <th>
+                    <th class="column-destaque">
                         <p>BIG TECHS</p>
                         <h2>R$69</h2>
                     </th>
@@ -42,105 +48,105 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>MONITORAMENTO DE REDE</td>
+                    <td class="column-destaque text-justify">MONITORAMENTO DE REDE</td>
                     <td>3 REDES</td>
                     <td>10 REDES</td>
                     <td>20 REDES</td>
                     <td>50 REDES</td>
                 </tr>
                 <tr>
-                    <td>DASHBOARD</td>
+                    <td class="column-destaque text-justify">DASHBOARD</td>
                     <td>1 DASHBOARD</td>
                     <td>5 DASHBOARDS</td>
                     <td>10 DASHBOARDS</td>
                     <td>25 DASHBOARDS</td>
                 </tr>
                 <tr>
-                    <td>USUÁRIOS</td>
+                    <td class="column-destaque text-justify">USUÁRIOS</td>
                     <td>1 USUÁRIO</td>
                     <td>5 USUÁRIOS</td>
                     <td>10 USUÁRIOS</td>
                     <td>25 USUÁRIOS</td>
                 </tr>
                 <tr>
-                    <td>RELATÓRIO DE ATUALIZAÇÃO</td>
+                    <td class="column-destaque text-justify">RELATÓRIO DE ATUALIZAÇÃO</td>
                     <td>TODA HORA</td>
                     <td>A CADA 30 MINUTOS</td>
                     <td>QUASE EM TEMPO REAL</td>
                     <td>TEMPO REAL</td>
                 </tr>
                 <tr>
-                    <td>RELATÓRIO DE EMAILS</td>
+                    <td class="column-destaque text-justify">RELATÓRIO DE EMAILS</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                 </tr>
                 <tr>
-                    <td>TRANSAÇÃO ILIMITADAS</td>
+                    <td class="column-destaque text-justify">TRANSAÇÃO ILIMITADAS</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                 </tr>
                 <tr>
-                    <td>RASTREADOR DE PAGAMENTO</td>
+                    <td class="column-destaque text-justify">RASTREADOR DE PAGAMENTO</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                 </tr>
                 <tr>
-                    <td>EXPORTAÇÃO DE DADOS</td>
+                    <td class="column-destaque text-justify">EXPORTAÇÃO DE DADOS</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                 </tr>
                 <tr>
-                    <td>CONVERSOR DE MOEDA</td>
+                    <td class="column-destaque text-justify">CONVERSOR DE MOEDA</td>
                     <td>---</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                 </tr>
                 <tr>
-                    <td>ACESSO A API</td>
+                    <td class="column-destaque text-justify">ACESSO A API</td>
                     <td>---</td>
                     <td>*</td>
                     <td>*</td>
                     <td>*</td>
                 </tr>
                 <tr>
-                    <td>RESTRIÇÃO DE IP</td>
+                    <td class="column-destaque text-justify">RESTRIÇÃO DE IP</td>
                     <td>---</td>
                     <td>---</td>
                     <td>*</td>
-                    <td>---</td>
+                    <td>*</td>
                 </tr>
                 <tr>
-                    <td>FEED PERSONALIZADO</td>
+                    <td class="column-destaque text-justify">FEED PERSONALIZADO</td>
                     <td>---</td>
                     <td>---</td>
                     <td>*</td>
-                    <td>---</td>
+                    <td>*</td>
                 </tr>
                 <tr>
-                    <td>LIMITE DE IMPORTAÇÃO DE DADOS</td>
+                    <td class="column-destaque text-justify">LIMITE DE IMPORTAÇÃO DE DADOS</td>
                     <td>ÚLTIMO ANO</td>
                     <td>ÚLTIMOS 2 ANOS</td>
                     <td>ÚLTIMOS 3 ANOS</td>
                     <td>ÚLTIMOS 3 ANOS</td>
                 </tr>
                 <tr>
-                    <td>RETENÇÃO DE DADOS</td>
+                    <td class="column-destaque text-justify">RETENÇÃO DE DADOS</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                 </tr>
                 <tr>
-                    <td>SUPORTE</td>
+                    <td class="column-destaque text-justify">SUPORTE</td>
                     <td>EMAIL</td>
                     <td>EMAIL & CHAT</td>
                     <td>EMAIL & CHAT</td>
@@ -149,11 +155,16 @@
             </tbody>
         </table>
     </div>
-    <footer>
-        <h1>AlfaTech</h1>
-        <p>Soluções em hospedagem</p>
+    <div id="contact" class="contact">
+        <div class="contact-logo">
+            <img src="img/logo-icone-escuro.png" alt="Logo da empresa" class="logo">
+            <h1>AlfaTech</h1>
+            <p>Soluções em hospedagem</p>
+        </div>
         <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
-        <p>Desenvolvido por Bruna Santos</p>
+    </div>
+    <footer>
+        <p>Desenvolvido por <span class="texto-destaque">Bruna Santos</span></p>
     </footer>
 </body>
 </html>
