@@ -227,21 +227,48 @@ header {
 
 .plans h2 {
     font-size: 32px;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
-.plans table {
-    box-shadow: 0 0 40px rgba(47, 134, 214, 1);
+table {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47, 134, 214, 1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+}
+
+table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
 }
 
 .plans h3 {
     font-size: 18px;
     color: #000;
+    margin-bottom: 20px;
 }
 
-.plans small {
-    font-size: 13px;
-    color: #a89f9f;
+.plans img {
+    width: 100px;
+    margin: auto;
+}
 
+.plans p {
+    font-size: 13px;
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #a89f9f;
 }
 
 .fundo-cinza {
@@ -249,9 +276,9 @@ header {
     background-color: #f6f6f6;
 }
 
-.fundo-azul {
+.fundo-branco {
     font-size: 16px;
-    background-color: #f1f3f7;
+    background-color: #fff;
 }
 
 /* CONTACT */
