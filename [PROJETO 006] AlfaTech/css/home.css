@@ -9,16 +9,27 @@
 header {
     background-color: #fff;
     width: 100%;
-    padding: 35px 0;
 }
 
 .container {
-    width: 1024px;
+    width: 100%;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
+.topo {
+    position: relative;
+    padding: 35px 0;
+}
+
 .logo-div {
-    /*  */
+    position: relative;
+}
+
+.logo-div div {
+    position: absolute;
+    top: 0;
+    left: 95px;
 }
 
 .logo-div h1 {
@@ -29,15 +40,23 @@ header {
 
 .logo-div p {
     font-size: 16px;
+    font-weight: 600;
     color: #2f86d6;
 }
 
 .logo {
-    width: 50px;
+    width: 80px;
 }
 
 .links-topo {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+.links-topo a {
     font-size: 18px;
+    padding: 0 10px;
     color: #233032;
     text-decoration: none;
     font-weight: 600;
