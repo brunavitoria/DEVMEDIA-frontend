@@ -6,25 +6,52 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Topo */
+
 header {
     background-color: #2f86d6;
 }
 
 .container {
-    width: 1024px;
+    width: 100%;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
+header .container {
+    position: relative;
+    padding: 35px 0px;
 }
 
-header p {
-    color: #fff;
-    font-weight: 600;
+.logo-div {
+    position: relative;
 }
+
+.logo-div img {
+    width: 80px;
+}
+
+.logo-div div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.links-topo {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+header a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Pricing */
 
 .pricing {
     background-color: #fff;
