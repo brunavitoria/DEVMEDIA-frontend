@@ -54,21 +54,58 @@ header a {
 /* Pricing */
 
 .pricing {
-    background-color: #fff;
     padding: 100px 0;
 }
 
 table {
+    margin: auto;
     text-align: center;
 }
 
-.text-justify {
-    text-align: justify;
+.celula-oculta {
+    visibility: hidden;
 }
 
 .column-destaque {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
     background-color: #f1f3f7;
 }
+
+.text-justify {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.column-destaque p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+
+.column-destaque h2 {
+    font-size: 36px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+/* Contact */
 
 .contact {
     padding: 100px 0;
