@@ -6,6 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Topo */
+
 header {
     background-color: #fff;
     width: 100%;
@@ -62,6 +64,8 @@ header {
     font-weight: 600;
 }
 
+/* Banner */
+
 .banner {
     background-color: #2f86d6;
     width: 100%;
@@ -96,21 +100,60 @@ header {
     right: 0;
 }
 
+/* Anúncios */
+
 .ad-1 {
     background-color: #233032;
+    color: #fff;
+}
+
+.container-ad {
+    position: relative;
     padding: 40px 0;
 }
 
-.ad-1 h2 {
+.container-ad div {
     width: 600px;
+}
+
+.container-ad h2 {
+    margin-bottom: 5px;
     color: #fff;
+    font-size: 24px;
+}
+
+.container-ad p {
+    font-size: 16px;
+}
+
+.container-ad a {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.container-ad img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.container-ad span {
+    margin-left: 30px;
 }
 
 .ad-1 a {
-    text-decoration: none;
     background-color: #2f86d6;
-    color: #fff;
-    font-size: 18px;
 }
 
 .ad-2 {
@@ -118,25 +161,8 @@ header {
     padding: 40px 0;
 }
 
-.ad-2 h2 {
-    width: 600px;
-    color: #fff;
-    font-size: 24px;
-}
-
-.ad-texto h2 {
-    font-size: 24px;
-}
-
-.ad-texto p {
-    font-size: 16px;
-}
-
 .ad-2 a {
-    text-decoration: none;
     background-color: #233032;
-    color: #fff;
-    font-size: 18px;
 }
 
 /* INFO */
