@@ -1,0 +1,209 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo-div {
+    /*  */
+}
+
+.logo-div h1 {
+    font-size: 32px;
+    color: #000;
+
+}
+
+.logo-div p {
+    font-size: 16px;
+    color: #2f86d6;
+}
+
+.logo {
+    width: 50px;
+}
+
+.links-topo {
+    font-size: 18px;
+    color: #233032;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bg-blue {
+    background-color: #2f86d6;
+}
+
+.banner {
+    background-color: #2f86d6;
+    padding: 180px 0;
+    width: 100%;
+}
+
+.banner-texto {
+    width: 470px;
+}
+
+.banner-texto p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner-texto h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.banner-image {
+    width: 50vw;
+}
+
+.ad-1 {
+    background-color: #233032;
+    padding: 40px 0;
+}
+
+.ad-1 h2 {
+    width: 600px;
+    color: #fff;
+}
+
+.ad-1 a {
+    text-decoration: none;
+    background-color: #2f86d6;
+    color: #fff;
+    font-size: 18px;
+}
+
+.ad-2 {
+    background-color: #2f86d6;
+    padding: 40px 0;
+}
+
+.ad-2 h2 {
+    width: 600px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.ad-texto h2 {
+    font-size: 24px;
+}
+
+.ad-texto p {
+    font-size: 16px;
+}
+
+.ad-2 a {
+    text-decoration: none;
+    background-color: #233032;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* INFO */
+.info {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.info h2 {
+    width: 900px;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    margin: 0 auto;
+}
+
+.info h3 {
+    color: #000;
+    font-size: 18px;
+
+}
+
+.info p {
+    color: #000;
+    font-size: 16px;
+}
+
+.texto-destaque {
+    color: #2f86d6;
+}
+
+.info div {
+    width: 33vw;
+    color: #233032;
+    text-align: center;
+}
+
+.info div img {
+    width: 100px;
+}
+
+/* PLANS */
+.plans {
+    padding: 100px 0;
+    background-color: #f1f3f7;
+}
+
+.plans h2 {
+    font-size: 32px;
+}
+
+.plans table {
+    box-shadow: 0 0 40px rgba(47, 134, 214, 1);
+}
+
+.plans h3 {
+    font-size: 18px;
+    color: #000;
+}
+
+.plans small {
+    font-size: 13px;
+    color: #a89f9f;
+
+}
+
+.fundo-cinza {
+    font-size: 16px;
+    background-color: #f6f6f6;
+}
+
+.fundo-azul {
+    font-size: 16px;
+    background-color: #f1f3f7;
+}
+
+/* CONTACT */
+.contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact-div {
+    font-size: 16px;
+    color: #000;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 0;
+    background-color: #f1f3f1;
+    font-weight: bold;
+    text-align: center;
+}

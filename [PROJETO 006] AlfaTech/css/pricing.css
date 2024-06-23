@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #2f86d6;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.pricing {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+table {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.column-destaque {
+    background-color: #f1f3f7;
+}
+
+.contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #2f86d6;
+}
+
+.contact p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-logo {
+    width: 320px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #fff;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.texto-destaque {
+    color: #2f86d6;
+}
