@@ -18,3 +18,4 @@ Lista de exercícios desenvolvidos durante a carreira de Programador Front-end d
 
 - [CSS Seletores](/[Exercícios%20Práticos]/[02-04]%20CSS%20Seletores/) - Exercícios de CSS Seletores
 - [CSS Background](/[Exercícios%20Práticos]/[04-04]%20CSS%20Background/) - Exercícios de CSS Background
+- [CSS Flexbox](/[Exercícios%20Práticos]/[24-06]%20CSS%20Flexbox/) - Exercícios de CSS Flexbox
