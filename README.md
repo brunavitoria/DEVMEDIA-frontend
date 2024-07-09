@@ -11,6 +11,7 @@ Lista de projetos desenvolvidos durante a carreira de Programador Front-end do D
 - [Projeto 004](/[PROJETO%20004]%20Pet%20Boutique/) - Pet Boutique
 - [Projeto 005](/[PROJETO%20005]%20Manhattan%20Coffee%20House/) - Manhattan Caffe House
 - [Projeto 006](/[PROJETO%20006]%20AlfaTech/) - AlfaTech
+- [Projeto 007](/[PROJETO%20007]%20Pousada%20Secreta/) - Pousada Secreta
 
 ## Exercícios
 
