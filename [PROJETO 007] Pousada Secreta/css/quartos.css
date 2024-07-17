@@ -1,0 +1,37 @@
+.quartos-imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.quartos-imagens img {
+    width: 350px;
+    flex-grow: 1;
+}
+
+.banner-quartos {
+    height: 40vh;
+}
+
+.informacoes {
+    max-width: 1024px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.informacoes ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.informacoes li {
+    width: 230px;
+    text-align: left;
+}
