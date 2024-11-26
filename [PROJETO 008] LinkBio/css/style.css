@@ -46,15 +46,10 @@
 }
 
 .border-gradient {
-    width: 215px;
-    height: 215px;
-    position: absolute;
-    background: linear-gradient(90deg, #ffdf00, #009c3b);
-    border-radius: 100%;
-
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
 }
 
 .profile {
@@ -77,15 +72,11 @@
     z-index: -1;
 }
 
-.container {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 40px 0px;
-}
-
 .title {
-    text-shadow: 3px 6px 1px #000000;
+    position: relative;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 6px 3px #000000;
 }
 
 .title::before {
@@ -99,8 +90,45 @@
     background: linear-gradient(90deg, #ffdf00, #009c3b);
 }
 
+.title img {
+    width: 20px;
+}
+
 .social-media {
-    display: block;
+    max-width: 768px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media a {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #0200006e;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.social-media a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.social-media a img {
+    width: 30px;
+}
+
+.social-media a p {
+    width: 90%;
 }
 
 h2 {
